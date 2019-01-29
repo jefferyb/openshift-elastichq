@@ -1,8 +1,8 @@
-FROM elastichq/elasticsearch-hq
+FROM elastichq/elasticsearch-hq:release-v3.5.0
 
 MAINTAINER Jeffery Bagirimvano
 
-ENV ELASTICHQ_VERSION=latest
+ENV ELASTICHQ_VERSION=release-v3.5.0
 
 ### Atomic/OpenShift Labels - https://github.com/projectatomic/ContainerApplicationGenericLabels
 LABEL name="jefferyb/openshift-elastichq" \
